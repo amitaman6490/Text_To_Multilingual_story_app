@@ -6,7 +6,7 @@ from PyPDF2 import PdfReader
 import openai
 
 # Set up your API key
-openai.api_key = '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'
+openai.api_key = 'YOUR_OPENAI_API_KEY'
 
 def translate_text(text, dest_language):
     # Map the language code to the language name
